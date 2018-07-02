@@ -1,0 +1,528 @@
+@media screen and (max-width: 1380px) {
+	.popup_content {
+		max-height: 99%;
+		overflow: hidden;
+		overflow-y: auto;
+	}
+	.popup_img {
+		display: none;
+	}
+	.close_popup {
+		top: 0;
+		right: 0;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.dsc_dot {
+		margin: 0 3px;
+	}
+}
+
+
+
+@media screen and (max-width: 1180px) {
+	#video_sect:after,
+	.ps_title::after,
+	.reasons .reasons_title:after,
+	.stars_title:after,
+	.organization .org_title:after,
+	.price .price_title:after {
+		display: none;
+	}
+	.hc_footer {
+		position: static;
+		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		margin-top: 50px;
+	}
+	.hcf_block {
+		margin: 0 auto 20px;
+	}
+	.header_content {
+		height: auto;
+		padding-bottom: 50px;
+	}
+	.top_line {
+		margin-bottom: 30px;
+	}
+	.hc_title {
+		font-size: 60px;
+	}
+	.header {
+		margin-bottom: 0;
+	}
+	.about_comp .ab_row {
+		display: block;
+		padding: 30px 0;
+	}
+	.about_comp .ab_row:after {
+		width: 100%;
+	}
+	.atb_main_text:after {
+		display: none;
+	}
+	.atb_main_text {
+		margin-left: 0;
+		padding-left: 0;
+	}
+	.ab_text_block {
+		width: 100%;
+		text-align: center;
+	}
+	.atb_small_text {
+		margin-bottom: 30px;
+	}
+	.ab_row img {
+		display: block;
+		margin: 0 auto 20px;
+	}
+	.about_comp {
+		margin-bottom: 0;
+	}
+	#days_slider .slide {
+		height: 500px;
+	}
+	.dsc_dot {
+		width: 90px;
+		height: auto;
+		padding-bottom: 10px;
+	}
+	.dscd_num {
+		height: 80px;
+	}
+	.dscd_text {
+		padding: 3px;
+		height: 65px;
+	}
+	.dscd_text {
+		font-size: 14px;
+	}
+	#reasons_slider .slide {
+		display: block;
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+	.res_info {
+		padding: 0;
+	}
+	.ri_title {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		padding-top: 170px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.ri_title:after {
+		display: none;
+	}
+	.ri_title:before {
+		top: 0;
+		left: calc(50% - 75px);
+	}
+	.ri_text {
+		width: 100%;
+		text-align: center;
+	}
+	#reasons_slider .slide .rs_img {
+		text-align: center;
+		padding-top: 0;
+	}
+	#reasons_slider .slide .rs_img img {
+		display: inline-block;
+	}
+	.reasons .reasons_title {
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.reasons .reason_btn {
+		position: static;
+		margin: 0 auto;
+		display: block;
+		width: 300px;
+		text-align: center;
+	}
+	.reasons {
+		padding-bottom: 40px;
+	}
+	#reasons_slider .slick-dots {
+		position: static;
+		text-align: center;
+		margin-top: 30px;
+	}
+	#reasons_slider .slick-prev.slick-arrow {
+		left: 0;
+		top: calc(50% - 95px);
+	}
+	#reasons_slider .slick-next.slick-arrow {
+		right: 0;
+		top: calc(50% - 95px);
+	}
+	.org_num {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	.org_num:nth-child(1) {
+		border-left: none;
+	}
+	.org_num:nth-child(2),
+	.org_num:nth-child(4) {
+		border-right: none;
+	}
+	.org_bottom_line {
+		height: auto;
+	}
+	.price_blocks {
+		display: block;
+	}
+	.price_block {
+		width: 100%;
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.pbi_title span.br {
+		display: inline-block;
+	}
+	.pbi_title {
+		height: auto;
+		padding: 20px 10px;
+	}
+	.pb_btn {
+		position: relative;
+		top: initial;
+		left: initial;
+		width: 250px;
+	}
+	.pc_footer input {
+		width: 49%;
+		margin-bottom: 10px;
+	}
+}
+
+
+@media screen and (max-width: 940px) {
+	.title_slide:after {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 840px) {
+	.hc_title {
+		font-size: 40px;
+	}
+	.offer_btn {
+		font-size: 14px;
+	}
+	/*#video_sect {
+		height: 350px;
+	}*/
+	.vs_title {
+		font-size: 25px;
+	}
+	#video_sect > img {
+		width: 100px;
+		height: auto;
+	}
+	.vs_btn {
+		font-size: 14px;
+	}
+	.ps_bg {
+		background: none;
+	}
+	.ps_days {
+		height: auto;
+		justify-content: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		display: flex;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		align-items: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		flex-wrap: initial;
+		-webkit-flex-wrap: initial;
+		-ms-flex-wrap: initial;
+	}
+	.ds_custom_dots:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.ds_custom_dots {
+		top: initial;
+	}
+	.dsc_dot {
+		display: block;
+		float: left;
+		width: 25%;
+		margin: 0;
+		box-shadow: none;
+	}
+	#days_slider .slick-prev.slick-arrow,
+	#days_slider .slick-next.slick-arrow {
+		display: none !important;
+	}
+	#days_slider .slide {
+		height: 500px;
+		padding-top: 30px;
+	}
+	#days_slider .slide .title_slide,
+	.price .price_title {
+		height: auto;
+		font-size: 45px;
+		line-height: initial;
+	}
+	.price {
+		padding-top: 30px;
+	}
+	.pcm_lists {
+		width: 100%;
+		float: none;
+	}
+	.popup_header {
+		display: block;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.pc_title {
+		margin-bottom: 15px;
+	}
+}
+
+
+
+@media screen and (max-width: 680px) {
+	#reasons_slider .slide {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#reasons_slider .slick-prev.slick-arrow,
+	#reasons_slider .slick-next.slick-arrow {
+		display: none !important;
+	}
+	.oib_text {
+		float: none;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.slogan_company {
+		font-size: 19px;
+	}
+	.pc_footer input {
+		width: 100%;
+		margin-right: 0;
+	}
+	.px_row {
+		display: block;
+	}
+	.pc_text_row {
+		margin-bottom: 10px;
+	}
+}
+
+
+
+@media screen and (max-width: 580px) {
+	.top_line {
+		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+	}
+	.top_line > div {
+		margin-bottom: 10px;
+	}
+	.top_line > div a {
+		margin: 0;
+	}
+	.logo_sparta {
+		display: none;
+	}
+	.atb_main_text {
+		font-size: 25px;
+	}
+	.ab_row img {
+		width: 100%;
+	}
+	.ps_title {
+		font-size: 45px;
+	}
+	#reasons_slider .slide .rs_img img {
+		width: 100%;
+		height: auto;
+	}
+	.reasons .reasons_title {
+		font-size: 35px;
+		line-height: initial;
+	}
+	.reasons {
+		padding-top: 30px;
+	}
+	.reasons .reasons_bg {
+		background: none;
+	}
+	.ri_title {
+		font-size: 25px;
+	}
+	.ri_text {
+		font-size: 16px;
+	}
+	.logo_inner {
+		display: block;
+		width: 100%;
+	}
+	#reg_popup.popup.active {
+		padding: 0;
+		display: block;
+	}
+	#reg_popup.popup.active .rp_content {
+		display: block;
+		width: 100%;
+		max-width: initial;
+		height: 100vh;
+		max-height: 100%;
+		overflow-y: auto;
+		margin: 0;
+		padding: 40px 20px 20px;
+	}
+	.pc_title {
+		font-size: 35px;
+		letter-spacing: initial;
+	}
+}
+
+
+
+@media screen and (max-width: 480px) {
+	#days_slider .ds_city,
+	#days_slider .slide .title_slide {
+		font-size: 30px;
+	}
+	#days_slider .slide {
+		height: 300px;
+	}
+	.oib_text {
+		text-align: center;
+		font-size: 18px;
+		padding-right: 0;
+	}
+	.org_num {
+		border: none;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.organization .org_title {
+		line-height: initial;
+		font-size: 35px;
+		height: auto;
+		margin-bottom: 30px;
+	}
+	.pc_title {
+		font-size: 35px;
+	}
+	.popup {
+		padding: 10px;
+	}
+	.pc_footer {
+		padding: 20px 65px 50px;
+	}
+	.popup_content {
+		padding: 10px;
+	}
+	.pc_inner_2 {
+		padding: 20px;
+	}
+	.vs_title {
+		margin-bottom: 0;
+		font-size: 20px;
+	}
+	.vs_btn {
+		margin-top: 10px;
+		padding: 15px 50px;
+	}
+	.popup {
+		padding: 0;
+	}
+	.popup_content {
+		max-height: 100%;
+	}
+}
+
+
+
+@media screen and (max-width: 420px) {
+	.db_date {
+		width: auto;
+		height: auto;
+		line-height: initial;
+		font-size: 30px;
+		padding: 15px 5px;
+	}
+	.hcf_block {
+		display: block;
+		width: 100%;
+		height: auto;
+		text-align: center;
+		padding: 25px 10px;
+	}
+	.hcf_block:nth-child(1) .hcfb_num::after,
+	.hcf_block:nth-child(2) .hcfb_num::after,
+	.hcf_block:nth-child(3) .hcfb_num::after {
+		display: none;
+	}
+	.ps_day {
+		width: 100%;
+		height: auto;
+	}
+	.psdri_row {
+		width: auto;
+	}
+	.psd_right_info {
+		padding: 15px 10px;
+	}
+	.psd_left_info {
+		width: 30%;
+	}
+	.psd_right_info {
+		width: 70%;
+	}
+	.pb_btn {
+		width: 200px;
+	}
+	.pbi_title {
+		font-size: 22px;
+	}
+	.price_bottom_line {
+		padding-bottom: 30px;
+	}
+	.db_text {
+		font-size: 15px;
+	}
+}
+
+
+
+@media screen and (max-width: 350px) {
+	.dsc_dot {
+		width: 50%;
+	}
+	.prog_btn {
+		width: 100%;
+		font-size: 14px;
+	}
+}
